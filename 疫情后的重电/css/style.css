@@ -1352,8 +1352,13 @@ span.white {
 }
 
 .rule-bott-right {
-    background: #BD49A8;
+    background: url(../images/life.jpg)no-repeat center bottom;
     min-height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0px;
 }
 
 .rule-bott-right p {
